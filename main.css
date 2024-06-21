@@ -1,0 +1,823 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+    }  
+    
+    header {
+        background-image: url(./backfround.jpg);
+        background-repeat:no-repeat;
+        background-size: cover;
+        padding-top: 18px;
+        margin-bottom: -45px;
+        
+    }
+
+    header h1{
+        padding: 12px;
+        color: rgb(207, 8, 58);
+        font-family: "Dancing Script", cursive;
+        font-style: normal;
+        font-weight: lighter;
+        font-style: italic;
+        margin-left: 50px;
+        margin-top: -15px;
+        
+    }
+
+    header > .container {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+
+    header > .container h1 {
+        padding-top: 50px;
+        font-size: 60px;
+    }
+
+    @media screen and (max-width: 768px){
+        header, h3 {
+            font-size: 13px;
+            text-align:center; 
+           margin-bottom: -10px;
+        }            
+    }
+
+    @media screen and (max-width: 768px){
+        header .container {
+            padding: 10px 0;
+            display:inline; 
+            justify-content:space-between; 
+            margin-right: -10px; 
+           margin-bottom: -555px;                            
+                      
+        }            
+    }
+       
+    @media screen and (max-width: 768px) {
+        header {
+    
+            background-image: url(./backfround.jpg);
+            background-repeat:no-repeat;
+            background-size: cover;
+            color: rgb(107, 12, 35);
+            padding: 8px ; 
+            padding-top: 45px; 
+            margin-bottom: 15px;
+            margin-right: -75px;
+                    
+        }
+                    
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .header img {
+            width: 20%; /* Defina a largura desejada, como 100% */
+            background-image: url(./backfround.jpg);
+            background-repeat:no-repeat;
+            background-size: cover;           
+                                       
+        }
+            
+        }
+        
+
+
+    @media screen and (max-width: 768px){
+        header .container a {
+            font-size: 12px;
+           
+        }            
+    }
+      
+    @media screen and (max-width: 768px){
+        header .container li a {
+            font-family: "Dancing Script", cursive;
+            font-style: normal;
+           
+        }            
+    }
+
+   
+    
+    @media screen and (max-width: 768px){
+            header h1 {
+                margin-right:65px;
+            }
+        }
+   
+     @media screen and (max-width: 768px){
+                header > .container h1 {
+                    padding-top: 20px;
+                    font-size: 30px;
+                   
+            }
+        }
+
+
+
+        @media screen and (max-width: 768px){
+            .container-show h1{
+                margin-left: -110px;
+                margin-bottom: -10px;
+            }
+        }
+    
+        @media screen and (max-width: 768px){
+            .container-show {
+                margin-left: 50px;
+                margin-bottom: -10px;
+                padding-top: 15px;
+                
+            }
+        }
+
+
+  
+    .body {
+        font-family: sans-serif;
+        background-image: linear-gradient( rgb(253, 173, 147, 1) 2%, rgb(255, 207, 224, 1) 20%, rgb(241, 173, 151, 1) 41%, rgb(255, 207, 224, 1) 64%, rgb(238, 168, 146, 1) 81%, rgb(255, 207, 224, 1) 100%);
+        overflow-y:scroll;
+        overflow-x:hidden;       
+        
+    }
+            
+        @media screen and (max-width: 768px){                
+        body {
+            margin: 0; 
+            width: 110%; /* Defina a largura desejada, por exemplo, 100% */
+            font-family: sans-serif;
+            background-image: linear-gradient( rgb(253, 173, 147, 1) 2%, rgb(255, 207, 224, 1) 20%, rgb(241, 173, 151, 1) 41%, rgb(255, 207, 224, 1) 64%, rgb(238, 168, 146, 1) 81%, rgb(255, 207, 224, 1) 100%);
+            background-repeat:repeat;
+            background-size:contain;
+            color:rgb(233, 226, 217);
+            overflow-y:scroll;
+            overflow-x:hidden;
+            background-position: center;
+            margin-left: 5px; /* Remova margens do corpo para cobrir toda a tela */
+            padding: 0; /* Remova preenchimento do corpo para cobrir toda a tela */                  
+            margin-right: -45px;                     
+            
+        }           
+  
+        }
+   
+.carousel-imagens h2 {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    padding-bottom: 35px;
+    color:black;
+    margin-left: 120px;
+    padding-top: 25px;
+}
+
+#carousel-imagens {
+        height:600px; 
+        max-width: 100%;        
+        padding-left: 500px;
+        text-align: center;
+        margin-left: -260px;
+        margin-bottom: -255px;
+        
+    }
+
+
+    #carousel-imagens img {
+        max-width: 60%; 
+        height: 300px; 
+       
+    }
+
+    .carousel-imagens p {
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 40px;
+        padding-bottom: 50px;
+        font-family: "Dancing Script", cursive;
+
+    }
+
+       
+    .carousel-imagens {
+        display: flex; /* Torna o conteúdo do elemento flexível */
+        flex-direction: column; /* Organiza os itens verticalmente */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        text-align: center; /* Centraliza o conteúdo dentro do elemento */
+    }
+    
+    .carousel-imagens a {
+        text-decoration: none; /* Remove o sublinhado padrão do link */
+        margin-top: -25px; /* Espaçamento entre o parágrafo e o link */
+        
+    }
+
+
+    @media screen and (max-width: 768px) {
+        #carousel-imagens {
+            height: 250px;
+            max-width: 500px;
+            margin: 150px auto 0; /* Ajuste para centralizar verticalmente e remover margens desnecessárias */
+            padding: 0 5px; /* Ajuste do padding para ambos os lados */
+            text-align: center;
+            margin-bottom: 500px ;
+            margin-top: 15px;
+            
+        }
+    
+        .carousel-imagens h2 {
+            padding-top: 35px;
+            margin-top: -25px;
+            font-size: 15px;   
+            text-align:left;     
+            margin-right: 100px;
+            margin-bottom: -180px;
+        }
+    
+        #carousel-imagens img {
+            max-width: 40%; /* Use 100% da largura disponível */
+            height: auto; /* Mantenha a proporção da imagem */
+            margin: 0 auto; /* Centralize horizontalmente */
+            height: 200px;
+           
+        }
+    
+        .carousel-imagens p {
+            padding-top: 50px;
+            margin-bottom: -10px;
+        }
+    
+       
+    
+        .carousel-imagens a {
+            text-decoration: none;
+            margin-top: -25px;
+            padding-bottom: 10px;
+        }
+    }
+    
+
+    .elemento-aos-one {
+        align-items: center;
+        margin-left: 200px;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+
+    .elemento-aos-two {
+        align-items: center;
+        margin-left: -300px;
+        align-items: center;
+        
+    }
+
+    .elemento-aos-one img {
+        height: 200px;
+        width: 250;
+    }
+
+    .elemento-aos-two img {
+        height: 200px;
+        width: 250;
+    }
+
+    .texto1 {
+        color:black;
+        margin-right: 485px;
+        margin-top: -125px;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, serif;
+        margin-bottom: 10px;
+        
+    }
+
+    .texto2 {
+        color:black;
+        margin-left: 560px;
+        margin-top: -125px;
+        text-align: center;
+        margin-bottom: 220px;
+        font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .elementos img {
+        border-radius: 4px;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .elemento-aos-one,
+        .elemento-aos-two {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto; /* Centralize horizontalmente */
+            margin-bottom: 40px;
+        }
+    
+        .elemento-aos-one img,
+        .elemento-aos-two img {
+            height: 100px;
+            width: 200px; /* Estava faltando "px" após o valor */
+        }
+
+        .elemento-aos-two img {
+            height: 100px;
+            width: 200px; /* Estava faltando "px" após o valor */
+            margin-left: -50px;
+            margin-top: -120px;
+        }
+
+        .elemento-aos-one img {
+            margin-bottom: -80px;
+            margin-top: 10px;
+            
+        }
+    
+        .texto1,
+        .texto2 {
+            color: black;
+            margin-top: -655px;
+            text-align: center;
+            font-size: 12px;
+            font-family: "Cormorant Garamond", serif;
+        }
+    
+        .texto1 {
+            margin-right: 78px;
+            margin-top: -500px;
+            margin-bottom: -560px;
+        }
+    
+        .texto2 {
+            margin-left: -333px;
+            margin-bottom: 220px;
+            margin-top: 110px;
+        }
+
+        .elementos img {
+            border-radius: 4px;
+        }
+    }
+
+
+    button {
+        padding-bottom: 20px;
+        margin-bottom: 0 auto 50px;
+        width: 20%;
+        padding: 8px 0;
+        border-radius:16px;
+        text-decoration: none;
+        border: 3px solid rgb(88, 66, 5);
+        filter: brightness(200%) contrast(120%);
+        background-color: rgb(233, 190, 72);
+        color:rgb(100, 91, 7);
+        font-size:16px;
+        font-style: italic;
+        cursor: pointer;
+        padding-left: 14px;
+        padding-right: 14px;
+                     
+        }
+
+       
+
+        button:hover {
+        transform: scale(1.4);
+        transition: all ease 0.3s;
+        background-color: transparent;
+        border: 3px solid rgb(179, 161, 62);
+    }
+
+
+     @media screen and (max-width: 768px) {
+          button {
+            width: 35%; /* Ajuste a largura do botão para 80% da largura do contêiner */
+            margin: 0 auto 50px; /* Centralize horizontalmente e adicione uma margem na parte inferior */
+            padding: 4px 0; /* Remova a duplicação da propriedade de preenchimento */
+            border-radius: 16px;
+            text-decoration: none;
+            border: 3px solid rgb(218, 20, 95);
+            filter: brightness(200%) contrast(120%);
+            background-color: rgb(235, 98, 155);
+            color: rgb(224, 22, 99);
+            font-size: 10px;
+            font-style: italic;
+            cursor: pointer;
+            /* Remova as propriedades de preenchimento esquerdo e direito, pois foram definidas acima */
+                     
+        }
+     
+
+        button:hover {
+        transform: scale(1.4);
+        transition: all ease 0.3s;
+        background-color: transparent;
+        border: 3px solid rgb(196, 85, 161);
+    }
+    }
+        
+    .botao {
+        margin-left: 600px;
+        margin-top: -145px;
+        margin-bottom: 70px;
+    }
+
+    @media screen and (max-width: 768px){
+        .botao {
+            margin-right: -80px;
+            margin-left: -15px;
+            margin-top: -230px;
+            margin-bottom: -10px;
+            align-items: center;
+            padding-left: 185px;
+        }
+    }
+
+
+    .container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 10px;        
+        
+    }
+
+    nav {
+       
+        padding: 16px 0;
+        display:none;
+       
+        /* apos o display ser classificado como none, é necessario utilizar slideToggle na função do javascript*/
+
+    }
+
+    nav li {
+        list-style: none;
+        display: inline;
+        margin-right: 16px;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        
+    }
+
+    nav li a {
+        color: rgb(207, 8, 58);
+        text-decoration: none;
+        font-family: "Dancing Script", cursive;
+        font-style: normal;
+        
+    }
+
+    .menu-hamburguer {
+        width: 32px;
+        cursor: pointer;
+        margin-left: 1050px;
+    }
+
+    .menu-hamburguer span {
+        height: 2px;
+        width: 100%;
+        background-color:rgb(228, 231, 55);
+        display: block;
+        margin-bottom: 4px;
+       
+    }
+
+    @media screen and (max-width: 768px) {
+        .menu-hamburguer                         {
+        width: 32px;
+        display: block;
+        cursor: pointer;       
+        background-color: rgb(228, 26, 103);
+        margin-left: 350px;
+            }
+
+        .menu-hamburguer span {
+            height: 2px;
+            width: 100%;
+            display: block;
+            margin-bottom: 4px;
+                       
+            }
+           }
+
+   
+   .procedimentos h2{
+        text-align: center;
+        font-family: "Dancing Script", cursive;
+        font-size: 45px;
+        color:black;
+        
+
+    }
+    
+    @media screen and (max-width: 768px) {
+        .procedimentos h2{
+            text-align: center;
+            font-family: "Dancing Script", cursive;
+            font-size: 20px;
+            color:black;
+            text-decoration:double;
+            margin-top: -550px;
+
+        }
+    }
+
+
+
+    .social-links {
+        display: flex; /* Transforma a lista em um flex container */
+        justify-content: center; /* Centraliza os itens horizontalmente */
+        cursor: pointer
+    }
+    
+    .social-links img {
+        height: 25px;
+        margin-top: 10px;
+        margin-left: 30px; 
+        padding-right: 50px;
+                
+    }
+    
+    
+    .social-links li {
+        margin-left: -85px;
+        display: inline;
+        margin: right -50px; 
+        
+    }
+    
+    .social-links li a {
+        margin-right: -60px;
+        text-align: center;       
+        
+    }
+
+
+    .social-links li p {
+        text-align: left;   
+    } 
+
+
+    @media screen and (max-width: 768px) {
+        .social-links img {
+        height: 18px;
+        align-items: center;
+        padding-left: 20px;
+        justify-content: center;
+        margin-right: -100px;
+                    
+        }
+     }
+
+    
+        @media screen and (max-width: 768px) {
+        .social-links li {
+        height: 18px;
+        align-items: center;            
+        margin-right: 30px;
+
+        }
+    }                                      
+
+
+        @media screen and (max-width: 768px) {
+        .social-links {
+        height: 18px;
+        align-items: center;            
+        margin-right: -200px;
+                    
+                          
+        }
+    }        
+
+
+
+    
+    .container-flex {
+        display: flex;
+        text-align: center;
+        padding-top: 15px;
+        margin-bottom: 25px;
+        
+    }
+
+    .container-flex img  {
+        
+        margin-bottom: 15px;
+        border-style:double;
+        margin-top: 20px;
+        
+    }
+
+    .container-flex h2, p {
+        padding-bottom: 20px;
+        color:black;
+        
+    }
+
+    @media screen and (max-width: 768px){
+        .container-flex  {
+            width: 400px;
+            
+            
+        } 
+    }
+          
+    @media screen and (max-width: 768px){
+        .container-flex a {
+            width: 30px;
+        }            
+    }
+
+    @media screen and (max-width: 768px) {
+        .container-flex {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: auto; /* Defina a altura necessária ou 'auto' se o conteúdo determinar a altura */
+          width: 100%; /* Ajuste a largura conforme necessário */
+          padding: 20px; /* Adapte o preenchimento conforme necessário */
+          margin-bottom: -120px;
+          
+        }
+      
+        .container-flex img {
+          display: block; /* Garante que a imagem não influencie no alinhamento vertical do texto */
+          margin-bottom: 10px; /* Espaçamento opcional entre a imagem e o texto */
+        }
+      
+        .container-flex p {
+          text-align: center;
+          margin: 0; /* Remove margens padrão */
+        }
+
+    }
+
+
+
+
+
+   .titulo b {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    color:black;
+   }
+
+   .about {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+    section {
+        padding: 48px 0;
+    }
+
+    section h2 {
+        margin-bottom: 16px;
+    }
+
+    
+     
+    
+    .contact_dress {
+        text-align:center;
+        margin-left: -60px;
+        padding-top: 30px;
+        font-size: 10px;
+        margin-right: -20px;
+        }
+   
+        @media screen and (max-width: 768px){
+            .contact_dress{
+            text-align:center;
+            margin-left: -60px;
+            padding-top: 30px;
+            font-size: 12px;
+            margin-right: -385px;
+            padding-bottom: 10px;
+            }
+    
+            @media screen and (max-width: 768px){
+                .contact_dress p {
+                padding-bottom: 8px;
+                }
+            }
+        }
+
+
+    .contact{
+        text-align: center;
+        margin-right: 900px;
+        margin-bottom: 10px;
+        }
+
+        @media screen and (max-width: 768px){
+            .contact h3 {
+            text-align: center;
+            font-size: 12px;
+            margin-right: -365px;
+            font-size: 12px;
+            }
+    
+            .contact{
+                text-align: center;
+                margin-bottom: 10px;
+                margin-right:1853px ;
+               
+                }    
+            }    
+                      
+        
+     
+
+        @media screen and (max-width: 768px) {
+            .descricao-studio {
+                display: block;
+                text-align: center;
+                margin-top: -50px;
+                font-family: "Cormorant Garamond", serif;
+            }
+        
+            .descricao-studio img {
+                height: 130px;
+                margin-right: 15px;
+               
+               }
+
+               .descricao-studio b {
+                font-size: 86px;
+                text-align: center;
+                font-family: "Cormorant Garamond", serif;
+               }
+
+            .descricao-studio h2, p, b{
+                font-size:10px;
+                text-align: center;
+                font-family: "Cormorant Garamond", serif;
+            }
+        }
+        
+            
+
+            footer {
+        
+                background-image: url(./backfround.jpg);
+                background-repeat:no-repeat;
+                background-size: cover;
+                color: rgb(107, 12, 35);
+                padding: 8px ; 
+                padding-top: 45px; 
+                margin-bottom: -5px;
+                        
+            }
+        
+            footer a {
+                color:rgb(224, 183, 170);
+                padding: 16px 0;   
+                text-decoration: none; 
+                text-align: center; 
+               
+            }
+        
+                
+            footer p {
+               text-align: center;
+               margin-left: 200px;
+               font-size: 12px;
+            }
+        
+            @media screen and (max-width: 768px) {
+                footer {
+            
+                    background-image: url(./backfround.jpg);
+                    background-repeat:no-repeat;
+                    background-size: cover;
+                    color: rgb(107, 12, 35);
+                    padding: 8px ; 
+                    padding-top: 45px; 
+                    margin-bottom: -5px;
+                    margin-right: -75px;
+                            
+                }
+                            
+            }
+        
+            @media screen and (max-width: 768px) {
+                .container-footer p{
+                    margin-left: 10px;
+                    font-size: 10px;
+                    text-align: center;
+                    padding-bottom: 11px;
+               }
+                                
+                }
+        
