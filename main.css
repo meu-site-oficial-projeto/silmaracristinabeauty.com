@@ -573,7 +573,7 @@
         align-items: center;
         padding-left: 20px;
         justify-content: center;
-        margin-right: -100px;
+        margin-right: -250px;
                     
         }
      }
@@ -583,7 +583,7 @@
         .social-links li {
         height: 18px;
         align-items: center;            
-        margin-right: 30px;
+        margin-right: 50px;
 
         }
     }                                      
@@ -709,6 +709,7 @@
             @media screen and (max-width: 768px){
                 .contact_dress p {
                 padding-bottom: 8px;
+                 margin-left: 80px; 
                 }
             }
         }
@@ -781,11 +782,11 @@
             }
         
             footer a {
-                color:rgb(224, 183, 170);
+                color:rgb(71, 2, 31);
                 padding: 16px 0;   
                 text-decoration: none; 
                 text-align: center; 
-               
+                               
             }
         
                 
