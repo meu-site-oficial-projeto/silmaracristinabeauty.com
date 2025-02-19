@@ -39,7 +39,7 @@ nav ul li a {
     text-decoration: none; /* Remove o sublinhado do link */
     margin-right: 12px; /* Espaçamento entre os itens (opcional) */
     color: rgb(207, 8, 58);  
-    font-size: 20px;
+    font-size: 14px;
     
     
 }
