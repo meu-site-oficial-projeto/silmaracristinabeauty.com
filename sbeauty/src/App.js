@@ -81,10 +81,14 @@ function App() {
         <div className='container-social'>
           <ul>
             <li>
-            <img src={ insta } alt="SC Beauty" />
+              <a href="https://www.instagram.com/silmaracristina1?igsh=czZ5N2FsZGk3d2V1" target="_blank" rel="noopener noreferrer">
+               <img src={insta} alt="Instagram" />
+              </a>
             </li>
             <li>
-            <img src={ wtz } alt="SC Beauty" />
+              <a href="https://wa.me/5535997494247" target="_blank" rel="noopener noreferrer">
+               <img src={wtz} alt="WhatsApp" />
+              </a>
             </li>
           </ul>
           <p>
