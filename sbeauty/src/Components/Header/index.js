@@ -14,7 +14,7 @@ const Header = () => (
             <nav>
                 <ul>                    
                     <li>
-                    <a href="https://wa.me//5535997494247" target="_blank" rel="noopener noreferrer">Agende seu horario</a>
+                    <a href="https://wa.me//5535997494247" target="_blank" rel="noopener noreferrer">Clique aqui para agendar</a>
                     </li>                                 
                 </ul>
             </nav>
