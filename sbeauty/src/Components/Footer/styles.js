@@ -30,7 +30,7 @@ export const Rodape = styled.div`
 
     .container-co {
       margin-left: 10px; /* Remove o deslocamento à esquerda */
-      font-size: 10px; /* Diminui o tamanho da fonte para telas menores */
+      font-size: 8px; /* Diminui o tamanho da fonte para telas menores */
       margin-top: -30px;
     }
   
