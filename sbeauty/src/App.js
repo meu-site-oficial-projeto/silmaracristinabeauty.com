@@ -86,7 +86,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://wa.me/5535997494247" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5519993803902" target="_blank" rel="noopener noreferrer">
                <img src={wtz} alt="WhatsApp" />
               </a>
             </li>
